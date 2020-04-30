@@ -1,0 +1,7 @@
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\bin\Debug\CAB_Services.exe.config
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\bin\Debug\CAB_Services.exe
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\bin\Debug\CAB_Services.pdb
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\obj\Debug\CAB_Services.csprojAssemblyReference.cache
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\obj\Debug\CAB_Services.csproj.CoreCompileInputs.cache
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\obj\Debug\CAB_Services.exe
+C:\Users\The Daddy\source\repos\CAB_Services\CAB_Services\obj\Debug\CAB_Services.pdb
