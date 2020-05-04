@@ -11,9 +11,14 @@ namespace Tests
             CAB_Service service = new CAB_Service();
             int perKilometer = 10;
             int perminute = 1;
+            int minimumCost = 5;
             int travel = service.RideKilometer(1, 40);
             int time = perminute * service.RideTime(1) * travel;
-            int actual = time + travel * perKilometer;
+            int actual = minimumCost;
+            if (travel > 0)
+            {
+                actual = time + travel * perKilometer;
+            }
             Assert.AreEqual(480 ,actual);
         }
         [Test]
@@ -39,9 +44,14 @@ namespace Tests
             CAB_Service service = new CAB_Service();
             int perKilometer = 15;
             int perminute = 2;
+            int minimumCost = 20;
             int travel = service.RideKilometer(1, 20);
             int time = perminute * service.RideTime(1) * travel;
-            int actual = time + travel * perKilometer;
+            int actual = minimumCost;
+            if (travel > 0)
+            {
+                actual = time + travel * perKilometer;
+            }
             Assert.AreEqual(380, actual);
         }
         [Test]
